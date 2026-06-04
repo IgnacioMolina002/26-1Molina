@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.texto{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 20px;               /* Espaciado arriba y abajo */
+}
+
+footer{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    margin-top: 100px;
+
+}
+
+.rojo{                          /* Color rojo */
+    background-color: black;
+    color: red;
+}
+
+.centro{                        /* Alinea centro */
+    text-align: center;
+}
+
+section {
+    text-align: center; 
+    display: flex;
+      
+}
+
+main {
+    padding: 0 5px;
+}
+
+.margenVideo {
+    display: flex;
+    justify-content: center;      /* Centra horizontalmente */
+    align-items: center;          /* Centra verticalmente (opcional) */
+    width: 100%;                  /* Asegura que ocupe todo el ancho disponible */
+}
+
+.margenMenu{                      /* Margenes menu*/          
+    margin-bottom: 3px;
+    margin-left: 20px;
+}
+
+.margenMenu1{
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
+
+.margenMenu2{
+    margin-left: 20px;
+}
+
+.margenRedes{
+    margin: auto;
+}
+
+footer section {
+    display: flex;                  /* Activa el modo flexible */
+    justify-content: space-between; /* Distribuye los elementos con el mismo espacio entre si */
+    align-items: center;            /* Alinea en el centro */
+    width: 100%;                    /* Para que ocupe todo el ancho */
+    padding: 20px 0;                /* Espaciado solo arriba y abajo */
+}
+
+footer section div {
+    flex: 1;                        /* Hace que cada div ocupe el mismo espacio */
+    text-align: center;             /* Centra dentro de cada div */
+}
+
+
+a:hover{
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+
+.player {
+  position: fixed;
+  top: 10px;       /* arriba */
+  right: 10px;     /* derecha */
+  z-index: 9999;   /* siempre por encima */
+}
