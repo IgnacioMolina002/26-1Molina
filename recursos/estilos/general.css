@@ -100,7 +100,7 @@ a:hover{
 }
 
 .fondo {
-    background-image: url("../imagenes/Monalisa.png");
+    background-image: url("/recursos/imagenes/monalisa.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
