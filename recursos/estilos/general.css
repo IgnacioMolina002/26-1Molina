@@ -107,3 +107,8 @@ a:hover{
     height: 100vh;
     margin: 0;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
