@@ -99,7 +99,7 @@ a:hover{
   z-index: 9999;   /* siempre por encima */
 }
 
-body.centro {
+.centro {
     display: flex;
     flex-direction: column; /* 🔥 esto los pone uno debajo del otro */
     align-items: center;    /* centra horizontal */
