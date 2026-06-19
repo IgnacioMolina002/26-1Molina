@@ -99,14 +99,11 @@ a:hover{
   z-index: 9999;   /* siempre por encima */
 }
 
-.fondo {
-    background-image: url("/recursos/imagenes/Monalisa.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
+body.centro {
+    display: flex;
+    flex-direction: column; /* 🔥 esto los pone uno debajo del otro */
+    align-items: center;    /* centra horizontal */
+    justify-content: center; /* centra vertical (opcional) */
+    text-align: center;
+    gap: 15px;
 }
