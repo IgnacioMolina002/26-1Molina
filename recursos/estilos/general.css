@@ -99,13 +99,11 @@ a:hover{
   z-index: 9999;   /* siempre por encima */
 }
 
-.fondo{
-    background-image: url("../imagenes/Monalisa.png"); /* ruta de la imagen */
-    background-size: cover; /* ajusta la imagen a toda la pantalla */
-    background-repeat: no-repeat; /* evita que se repita */
-    background-position: center; /* centra la imagen */
-    height: 100vh;
-    margin: 0;
+.fondo {
+    background-image: url("../imagenes/Monalisa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 html, body {
