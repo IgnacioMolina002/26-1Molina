@@ -26,7 +26,7 @@ header{
 footer{
     background-color: rgb(43, 42, 42);
     color: white;
-    margin-top: 100px;
+    margin-top: 5vw;
 
 }
 
@@ -92,13 +92,6 @@ a:hover{
     filter: drop-shadow(0 0 10px rgb(255, 255, 255));
 }
 
-.player {
-  position: fixed;
-  top: 10px;       /* arriba */
-  right: 10px;     /* derecha */
-  z-index: 9999;   /* siempre por encima */
-}
-
 body.centro {
     background-color: black;
     display: flex;
@@ -106,5 +99,15 @@ body.centro {
     align-items: center;    
     justify-content: center; 
     text-align: center;
+    gap: 15px;
+}
+
+form {
+    padding-top: 2vh;
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
