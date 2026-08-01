@@ -76,12 +76,42 @@ a:hover{
     filter: drop-shadow(0 0 10px rgb(255, 255, 255));
 }
 
+/*MENU Hamburguesa*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 70%;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links img {
+    width: 80%;
+}
+
 @media (min-width: 350px) and (max-width: 940px) {
 
 main section img {
 width: 40%;
 height: auto;
-/*display: flex;*/
 justify-content: center;
 align-items: center;
 }
@@ -89,16 +119,6 @@ align-items: center;
 header {
     padding: 20px;
 }
-
-/*section {
-    flex-direction: row; 
-    justify-content: center;
-}*/
-
-/*footer section {
-    flex-direction: row;
-    justify-content: space-between;
-}*/
 
 footer section div {
     flex: 1;
@@ -112,7 +132,31 @@ section {
     gap: 10px;
 }
 
+.menu-icon {
+    display: block;
 }
 
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#menu-toggle:checked ~ .nav-links {
+    display: flex;
+}
+
+.nav-links img {
+    width: 30%;
+    margin: 10px 0;
+}
+
+}
 
 
