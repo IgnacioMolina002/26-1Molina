@@ -76,33 +76,43 @@ a:hover{
     filter: drop-shadow(0 0 10px rgb(255, 255, 255));
 }
 
+@media (min-width: 350px) and (max-width: 940px) {
 
-@media (min-width: 768px) {
+main section img {
+width: 40%;
+height: auto;
+/*display: flex;*/
+justify-content: center;
+align-items: center;
+}
 
 header {
     padding: 20px;
 }
 
-section {
+/*section {
     flex-direction: row; 
     justify-content: center;
-}
+}*/
 
-footer section {
+/*footer section {
     flex-direction: row;
     justify-content: space-between;
-}
+}*/
 
 footer section div {
     flex: 1;
 }
 
+section {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    text-align: center;
+    gap: 10px;
 }
 
-section {
-display: flex;
-flex-direction: column; 
-flex-wrap: wrap; 
-text-align: center;
-gap: 10px;
 }
+
+
+
