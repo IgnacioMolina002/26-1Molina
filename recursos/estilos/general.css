@@ -157,6 +157,17 @@ section {
     margin: 10px 0;
 }
 
+main {
+    flex: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
 }
 
 
