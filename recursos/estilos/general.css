@@ -76,6 +76,13 @@ a:hover{
     filter: drop-shadow(0 0 10px rgb(255, 255, 255));
 }
 
+.centroFrame { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
 /*MENU Hamburguesa*/
 
 .nav {

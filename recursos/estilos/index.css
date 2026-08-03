@@ -1,6 +1,29 @@
-.margenVideo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
+
+main{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+article{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+video{
+    width:95%;
+    height:auto;
+}
+
+footer{
+    margin-top:0;
+}
+
