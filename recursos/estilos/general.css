@@ -147,10 +147,10 @@ section {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 110px;
     left: 0;
     width: 100%;
-    background: black;
+    background:  rgb(43, 42, 42);
     text-align: center;
     padding: 20px 0;
 }
@@ -159,9 +159,9 @@ section {
     display: flex;
 }
 
-.nav-links img {
-    width: 30%;
-    margin: 10px 0;
+.nav-links img{
+    height: 40%;
+    width: auto;
 }
 
 main {
@@ -174,7 +174,5 @@ body {
     min-height: 100vh;
 }
 
-
 }
-
 
