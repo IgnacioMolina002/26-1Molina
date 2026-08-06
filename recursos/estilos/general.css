@@ -22,6 +22,11 @@ footer{
     margin-top: 5vw;
 }
 
+.redes a{
+    text-decoration: none;
+    border: none;
+}
+
 .rojo{                         
     background-color: black;
     color: red;
